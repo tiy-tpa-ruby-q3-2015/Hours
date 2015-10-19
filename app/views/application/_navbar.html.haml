@@ -3,6 +3,8 @@
     %ul
       = nav_path t("titles.projects.index"), root_path
       = nav_path t("navbar.entries"), user_entries_path(current_user)
+      = nav_path t("client.entries"), clients_path(current_user)
+      = nav_path t("category.entries"), categories_path(current_user)
   - localized_cache current_user do
     .nav-user
       %ul
