@@ -149,11 +149,21 @@ h1 {
 }
 
 #flash_notice {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 50px;
   @include flash($notice-color);
+
 }
 
 #flash_alert {
   @include flash($alert-color);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 50px;
+
 }
 
 .hide-for-mobile {
