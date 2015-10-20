@@ -17,4 +17,5 @@ class Category < ActiveRecord::Base
   def label
     name
   end
+
 end
