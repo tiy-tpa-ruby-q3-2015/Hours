@@ -102,10 +102,13 @@ pt-BR:
     "false": "não"
   budget_html: "<strong>%{budget_left}</strong> de <strong>%{budget}</strong> horas restantes no orçamento"
   category:
+    entries: Categorias
     edit: editar
+    destroy: excluir
     remaining: Outros
   category_created: Categoria criada com sucesso
   category_updated: Categoria atualizada com sucesso
+  category_destroyed: Categoria destruido com sucesso
   change_password: Alterar senha
   charts:
     hours_per_day: Horas por dia
@@ -114,6 +117,7 @@ pt-BR:
     hours_spent_per_project: Horas gastas por projeto
     hours_spent_per_user: Horas gastas por usuário
   client:
+    entries: Clientes
     edit: Editar
   client_created: Cliente criado com sucesso
   client_updated: Cliente atualizado com sucesso
