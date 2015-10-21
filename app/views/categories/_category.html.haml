@@ -3,6 +3,6 @@
     %span.color{:style => "background-color:#{category.name.pastel_color};"}
     %span= category.name
     %span
-      (#{link_to t("category.edit"), edit_category_path(category)})
+      #{link_to t("category.edit"), edit_category_path(category)}
+      | #{link_to t("category.destroy"), category_path(category), method: :delete}
     %p= markdown(category.description)
-  
