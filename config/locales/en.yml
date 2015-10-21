@@ -117,6 +117,7 @@ en:
       wrong_mail: If you didn't request this, please ignore this email.
   entries:
     download_csv: Download all entries as CSV
+    download_json: Download all entries as JSON
     index:
       category: Category
       date: Date
