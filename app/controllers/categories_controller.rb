@@ -8,7 +8,6 @@ class CategoriesController < ApplicationController
 
   def create
     @category = Category.new(category_params)
-
     if @category.save
       redirect_to categories_path, notice: t(:category_created)
     else
