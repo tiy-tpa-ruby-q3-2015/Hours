@@ -106,10 +106,13 @@ nl:
     "false": "nee"
   budget_html: "<strong>%{budget_left}</strong> van <strong>%{budget}</strong> uren van het budget over"
   category:
+    entries: Categorieen
     edit: edit
+    destroy: verwijderen
     remaining: Other
   category_created: De categorie is aangemaakt
   category_updated: De categorie is gewijzigd
+  category_destroyed: De categorie is vernietigd
   change_password: Verander wachtwoord
   charts:
     hours_per_day: Uren per dag
@@ -117,6 +120,7 @@ nl:
     hours_spent_per_project: Uren besteed per project
     hours_spent_per_user: Uren besteed per gebruiker
   client:
+    entries: Opdrachtgevers
     edit: Bewerk
   client_created: Client succesvol aangemaakt
   client_updated: Client succesvol bijgewerkt
