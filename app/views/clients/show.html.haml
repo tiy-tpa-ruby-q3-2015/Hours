@@ -11,6 +11,12 @@
             \-
             \#{EntryStats.new(@client.hours).total_hours}
             \#{t('tags.show.hours_indication_title', count: EntryStats.new(@client.hours).total_hours)}
+          %span.row
+            = @client.address
+            = succeed ',' do
+              = @client.city
+            = @client.state
+            = @client.zip
           %p
             = @client.description
       = render "/time_span"
