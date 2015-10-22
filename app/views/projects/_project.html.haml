@@ -14,7 +14,7 @@
             = client_title(project.client)
         - if project.budget
           .project-budget
-            = t(:budget_html, budget_left: project.budget_status, budget: project.budget)
+            = t(:budget_html, budget_left: number_with_delimiter(project.budget_status), budget: number_with_delimiter(project.budget))
         - if project.description
           %p= markdown(project.description)
         %hr/
