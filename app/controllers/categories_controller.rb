@@ -1,5 +1,5 @@
 class CategoriesController < ApplicationController
-  before_action :find_category, only: [:edit, :update]
+  before_action :find_category, only: [:edit, :update, :destroy]
 
   def index
     @category = Category.new
@@ -25,6 +25,12 @@ class CategoriesController < ApplicationController
     else
       render :edit
     end
+  end
+
+  def destroy
+    @category.destroy
+
+    redirect_to categories_path, notice: t(:category_destroyed)
   end
 
   private

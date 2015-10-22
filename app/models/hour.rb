@@ -24,6 +24,14 @@ class Hour < Entry
 
   validates :category, presence: true
 
+  validate :check_going_over_budget
+
+  def check_going_over_budget
+    if self.value > project.budget_status
+      errors.add(:value, I18n.t("errors.hours_over_budget"))
+    end
+  end
+
   accepts_nested_attributes_for :taggings
 
   scope :by_last_created_at, -> { order("created_at DESC") }

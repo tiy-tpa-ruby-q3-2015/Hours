@@ -11,6 +11,7 @@ class EntriesController < ApplicationController
 
     respond_to do |format|
       format.html { @mileages_entries + @hours_entries }
+      format.json { render json: @mileages_entries + @hours_entries }
       format.csv do
         send_csv(
           name: @user.name,

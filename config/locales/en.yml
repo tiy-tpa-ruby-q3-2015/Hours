@@ -85,9 +85,11 @@ en:
   category:
     entries: Categories
     edit: edit
+    destroy: delete
     remaining: Other
   category_created: Category successfully created
   category_updated: Category successfully updated
+  category_destroyed: Category successfully destroyed
   change_password: Change password
   charts:
     hours_per_day: Hours per day
@@ -117,6 +119,7 @@ en:
       wrong_mail: If you didn't request this, please ignore this email.
   entries:
     download_csv: Download all entries as CSV
+    download_json: Download all entries as JSON
     index:
       category: Category
       date: Date
@@ -176,6 +179,8 @@ en:
       edit_user: Edit profile
     entries: My Entries
   no_hours_registered: Nobody spent any time on %{project} yet
+  errors:
+    hours_over_budget: value puts project over budget.
   project:
     errors:
       client_missing: If the project is billable it needs a client
