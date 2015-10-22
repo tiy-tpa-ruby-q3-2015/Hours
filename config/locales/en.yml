@@ -20,7 +20,7 @@ en:
     description: "Description:"
     billable: "Billable:"
     archived: "Archived:"
-    budget: "budget:"
+    budget: "Budget:"
     category: "Category:"
     hours: "Hours:"
     mileages: "Kilometers"
