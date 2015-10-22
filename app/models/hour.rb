@@ -28,7 +28,7 @@ class Hour < Entry
 
   def check_going_over_budget
     if self.value > project.budget_status
-      errors.add(:value, "That hours value is over budget.")
+      errors.add(:value, I18n.t("errors.hours_over_budget"))
     end
   end
 
