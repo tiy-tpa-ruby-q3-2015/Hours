@@ -20,7 +20,7 @@ en:
     description: "Description:"
     billable: "Billable:"
     archived: "Archived:"
-    budget: "Budget:"
+    budget: "budget:"
     category: "Category:"
     hours: "Hours:"
     mileages: "Kilometers"
@@ -179,6 +179,8 @@ en:
       edit_user: Edit profile
     entries: My Entries
   no_hours_registered: Nobody spent any time on %{project} yet
+  errors:
+    hours_over_budget: value puts project over budget.
   project:
     errors:
       client_missing: If the project is billable it needs a client

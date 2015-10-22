@@ -20,7 +20,7 @@ nl:
     description: "Beschrijving:"
     billable: "Facturabel:"
     archived: "Gearchiveerd:"
-    budget: "Budget:"
+    budget: "budget:"
     category: "Categorie:"
     hours: "Hours:"
     mileages: "Kilometers"
